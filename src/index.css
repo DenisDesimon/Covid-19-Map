@@ -1,0 +1,125 @@
+.confirmed-item{
+	height: 75vh;
+
+}
+.death-item{
+	height: 70vh;
+
+}
+.recovered-item{
+	height: 70vh;
+
+}
+#map_pic > div{
+	height: 100%;
+	width: 100%;
+}
+#map_pic {
+	width: 50%;
+}
+#table-confirmed{
+	width: 20%;
+}
+.table-right{
+	width: 15%;
+}
+.mapboxgl-canvas-container{
+	height: 100%;
+	width: 100%;
+}
+.mapContainer{
+	height: 85%;
+	width: 100%;
+}
+
+.mapContainer {
+position: relative;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+
+width: 100%;
+}
+
+#tableitm {
+height: 100%; 
+width: 100%;
+position: absolute; 
+top: 0; 
+bottom: 0; 
+left: 0; 
+right: 0;
+margin-bottom: 0rem;
+}
+@media (max-width: 800px) {
+	#tableitm {
+	height: 225vh;
+	}
+	.confirmed-item{
+	height: 175vh;
+	}
+	.death-item{
+	height: 170vh;
+	}
+	.recovered-item{
+	height: 170vh;
+	}
+	#map_pic {
+		width: 65%;
+	}
+	#table-confirmed{
+		width: 15%;
+	}
+	.table-right{
+		width: 10%;
+	}
+}
+
+.display-3 {
+    font-weight: 300;
+
+}
+.submit-btn {
+	width: 40%;
+margin-left: 30%;
+margin-right: 30%
+}
+.col-sm-4{
+	width: 50%;
+}
+#map_pic{
+	max-width: 60%;
+}
+
+.heading-text{
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.total-nums{
+	font-size: 2em;
+	font-weight: 400;
+}
+.col-sm{
+	text-align: center;
+}
+.nums-list{
+	font-size: 1em;
+	font-weight: 400;
+}
+#header{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.social-media{
+	 display: flex; justify-content: center;
+}
+.table td, .table th {
+    border-top: 0px solid #dee2e6;
+    }
+.td-result
+{
+padding: 0rem!important;
+}
